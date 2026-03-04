@@ -1,3 +1,15 @@
+# Compilación C++
+build/
 *.o
 *.so
-build/
+
+# Entornos virtuales
+.venv/
+__pycache__/
+
+# Archivos de datos temporales
+*.csv
+!notebooks/*.csv
+
+# Imágenes generadas localmente
+simulacion_jailbreak.png
